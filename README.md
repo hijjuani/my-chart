@@ -14,6 +14,8 @@ Con una sola línea de código, podés generar un gráfico profesional de cualqu
 - Escala lineal o logarítmica
 - Diseño oscuro con marca de agua
 
+![image alt](https://github.com/hijjuani/my-chart/blob/a35c68cb05bb889d97ae793017c4d81d3e249093/Chart%20Example.png)
+
 ```python
 plot = GráficoBase(ticker='SPY', period='3y', sma_period=[100], ema_period=[20, 200], scale='linear')
 plot.mostrar()
